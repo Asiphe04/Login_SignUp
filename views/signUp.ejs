@@ -1,21 +1,20 @@
 <h1>Sign Up</h1>
-<form action="/register" method="POST">
-
-<div>
+<form action="/signUp" method="POST">
+  <div>
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
-</div>
+    <input type="text" id="name" name="name" required />
+  </div>
 
-<div>
+  <div>
     <label for="email">Email</label>
-    <input type="email" name="name" id="email" required>
-</div>
+    <input type="email" name="email" id="email" required />
+  </div>
 
-<div>
+  <div>
     <label for="password">Password</label>
-    <input type="password" id="password" name="password" required>
-</div>
+    <input type="password" id="password" name="password" required />
+  </div>
 
-<button type="submit">Register</button>
+  <button type="submit">Register</button>
 </form>
 <a href="/login">Login</a>
